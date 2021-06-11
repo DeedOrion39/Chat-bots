@@ -39,10 +39,5 @@ bot.on('message', msg=>{
          msg.reply('You are welcome!')
     } 
  })
- bot.on('message', msg=>{
-    if((msg.content === "sup")||(msg.content === "Sup")){
-         msg.reply('Sup Nigga')
-    } 
- })
 
 bot.login(process.env.token);
